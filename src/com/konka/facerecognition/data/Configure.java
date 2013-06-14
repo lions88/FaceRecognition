@@ -16,8 +16,9 @@ public class Configure {
 	
 	static{
 		sProps = new Properties();
-		sProps.setProperty(API_KEY, "6022c8b994c2b56861f94a39919e0f03");
-		sProps.setProperty(API_SECRET, "nP2VdyB03W4aaYuDnX8dydaOSTl47ZTL");
+		//TODO add your api_key and api_secret here
+		sProps.setProperty(API_KEY, "XXX");
+		sProps.setProperty(API_SECRET, "XXX");
 	}
 	
 	public static String getValue(String key){
